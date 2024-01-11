@@ -2,6 +2,8 @@
     background-color: rgb(216, 199, 199);
     align-items: center;
     text-align: center;
+    font-family: 'Salsa', cursive;
+    cursor: pointer;
 }
 
 .nav2{
@@ -13,10 +15,15 @@
     justify-content: space-around;
     border: 1px solid white;
     flex-wrap: wrap;
+    cursor: pointer;
+    
 }
 button{
     border: 1px solid white;
     background-color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Salsa', cursive;
+cursor: pointer;
 }
 .b1{
     background-color: rgb(50, 90, 201);
@@ -24,6 +31,8 @@ button{
     border-radius: 9px;
     color: white;
     width: 100px;
+    height:50px;
+    cursor: pointer;
 }
 
 .b2{
@@ -32,7 +41,103 @@ button{
     border-radius: 9px;
     color: white;
     width: 100px;
+    height: 50px;
+    cursor: pointer;
 }
 button:hover{
     color: rgb(2, 2, 231);
+}
+h1{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+h2{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+p{
+    font-family: 'Roboto Condensed', sans-serif;
+    cursor: pointer;
+    color: grey;
+}
+b{
+    color: rgba(43, 211, 9, 0.904);;
+}
+
+
+.p1{
+    color: rgb(50, 90, 201);
+    cursor: pointer;
+}
+
+.b3{
+    border: 1px solid grey;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    color: gray;
+    font-family: 'Roboto Condensed', sans-serif;
+    cursor: pointer;
+}
+.b4{
+    background-color: rgb(37, 37, 37);
+    color: antiquewhite;
+    cursor: pointer;
+
+}
+
+.nav3{
+    background-color: rgb(218, 236, 182);
+    width: 1300px;
+    height: 100px;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+
+.b4{
+    width: 100px;
+    height: 45px;
+   cursor: pointer;
+   border-radius: 10px;
+}
+
+input{
+    width: 100px;
+    height: 40px;
+}
+.b5{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(37, 37, 37);
+    color: antiquewhite;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.nav4{
+    align-items: center;
+    justify-content: center;
+}
+
+.b6{
+    background-color: rgba(43, 211, 9, 0.904);
+     color: white;
+     width: 100px;
+     height: 50px;
+     cursor: pointer;
+     border-radius: 10px;
+}
+
+.b7{
+    border-radius: 10px;
+    color: black;
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+}
+.b7:hover{
+    background-color: black;
+    color: antiquewhite;
 }
